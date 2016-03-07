@@ -9,11 +9,13 @@
     <title>my title</title>
 </head>
 <body>
-    <h1>标题</h1>
-    <p><b>Navigation</b></p>  	
+    <h1>header</h1>
+    <p><b>Navigation</b></p>
+    <%--<img src="/sitemesh/decorators/logo.jpg" alt="logo" />--%>
+    <img src="${pageContext.request.contextPath}/decorators/logo.jpg" alt="logo" />
     <hr />
     <decorator:body />
     <hr />
-    <h1>底部</h1>
+    <h1>foot</h1>
 </body>
 </html>
