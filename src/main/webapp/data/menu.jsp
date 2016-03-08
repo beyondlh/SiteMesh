@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Menu JSP</title>
+    <meta name="decorator" content="basic-theme">
 </head>
 <body>
 <h1>Beverages</h1>

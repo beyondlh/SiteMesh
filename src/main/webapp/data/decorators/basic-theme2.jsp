@@ -10,14 +10,14 @@
     <meta charset="UTF-8">
 </head>
 <body>
-<h1>header连连看</h1>
-<p><b>Navigation</b></p>
+<h1>头部</h1>
+<p><b>我的测试</b></p>
 <%--<img src="/sitemesh/decorators/logo.jpg" alt="logo" />--%>
-<img src="${pageContext.request.contextPath}/decorators/logo.jpg" alt="logo"/>
+<%--<img src="${pageContext.request.contextPath}/decorators/logo.jpg" alt="logo"/>--%>
 <hr/>
 <%--此处插入的就是要包装页面的body（可以是其他标签title head等）--%>
 <lhtest:body/>
 <hr/>
-<h1>foot</h1>
+<h1>底部</h1>
 </body>
 </html>
