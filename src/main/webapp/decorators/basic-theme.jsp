@@ -1,4 +1,6 @@
-<%@ taglib uri="http://www.opensymphony.com/sitemesh/decorator" prefix="decorator" %>
+<%--<%@ taglib uri="http://www.opensymphony.com/sitemesh/decorator" prefix="decorator" %>--%>
+<%--prefix可以自定义--%>
+<%@ taglib uri="http://www.opensymphony.com/sitemesh/decorator" prefix="lhtest" %>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
@@ -13,7 +15,7 @@
 <%--<img src="/sitemesh/decorators/logo.jpg" alt="logo" />--%>
 <img src="${pageContext.request.contextPath}/decorators/logo.jpg" alt="logo"/>
 <hr/>
-<decorator:body/>
+<lhtest:body/>
 <hr/>
 <h1>foot</h1>
 </body>
