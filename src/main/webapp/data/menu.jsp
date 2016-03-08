@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Menu老李</title>
+    <title>Menu JSP</title>
 </head>
 <body>
 <h1>Beverages</h1>

@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Hours</title>
+    <title>Hours JSP</title>
 </head>
 <body>
 <h1>Weekdays</h1>

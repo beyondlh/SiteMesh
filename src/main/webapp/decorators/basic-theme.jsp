@@ -15,6 +15,7 @@
 <%--<img src="/sitemesh/decorators/logo.jpg" alt="logo" />--%>
 <img src="${pageContext.request.contextPath}/decorators/logo.jpg" alt="logo"/>
 <hr/>
+<%--此处插入的就是要包装页面的body（可以是其他标签title head等）--%>
 <lhtest:body/>
 <hr/>
 <h1>foot</h1>
