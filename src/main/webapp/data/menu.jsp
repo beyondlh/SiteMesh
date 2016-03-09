@@ -2,7 +2,8 @@
 <html>
 <head>
     <title>Menu JSP</title>
-    <meta name="decorator" content="basic-theme">
+    <%--<meta name="decorator" content="basic-theme">--%>
+    <meta name="decorator" content="basic-theme2">
 </head>
 <body>
 <h1>Beverages</h1>
